@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:weekproject/pages/ui-1/ui-1.dart';
 import 'package:weekproject/pages/ui-3/ui-3.dart';
+import 'package:weekproject/pages/ui-4/ui-4.dart';
 import 'package:weekproject/pages/ui-9/ui-9.dart';
 
 void main() async {
@@ -21,7 +22,7 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       debugShowCheckedModeBanner: false,
-      home: Ui3(),
+      home: Ui4(),
     );
   }
 }
